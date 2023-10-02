@@ -1,11 +1,9 @@
 .container {
     width: 100%;
 }
-
 .container {
     width: 100%;
 }
-
 .nav-bar {
     position: fixed;
     top: 0;
@@ -13,33 +11,27 @@
     text-align: right;
     background-color: rgb(131, 24, 24);
     padding: 15px 0;
-    z-index: 2; /* Place the header above other content */
+    z-index: 2; 
     opacity: 0.9;
 }
-
 .nav-bar-in {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-
 .nav-bar-in li {
     display: inline;
     margin-right: 20px; 
 }
-
 .nav-bar-in li a {
     text-decoration: none;
     color: #fff; 
     padding: 15px;
     font-size: larger;
 }
-
 .nav-bar-in li a:hover {
     color: rgb(154, 195, 234);
 }
-
-
 .middle {
     display: flex;
     justify-content: center;
@@ -50,55 +42,45 @@
     overflow: hidden;
     color: aliceblue;
     font-size: 30px;
-    z-index: 1; /* Set a lower z-index for the middle section */
+    z-index: 1; 
 }
-  
-  
-  #typing-text {
+#typing-text {
     white-space: nowrap;
     font-size: 35px;
   }
-  
   .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    margin-top: 70px; /* Add margin to push content below the header */
-    z-index: 0; /* Set a lower z-index for the projects section */
+    margin-top: 70px; 
+    z-index: 0; 
 }
-
 .project {
-    width: calc(50% - 20px); /* Two projects per row with spacing */
-    margin: 10px; /* Add spacing between projects */
+    width: calc(50% - 20px); 
+    margin: 10px; 
     position: relative;
     transition: transform .4s;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
-
 .project:hover {
-    transform: translateY(10px); /* Move the image down slightly on hover */
+    transform: translateY(10px); 
 }
-
 .project img {
-    width: 400px; /* Make the images fill the entire project container */
+    width: 400px; 
     border: 1px solid #ddd;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-/* Optional styling for anchor tags */
 .project a {
     text-decoration: none;
     color: #333;
 }
-
 .project a:hover {
     color: #555;
 }
-
 .overlay {
     padding: 0;
     margin: 0;
@@ -110,40 +92,29 @@
     transition: transform 0.4s;
     align-items: center;
     height: 30px;
-
 }
-
-/* Add any existing CSS rules above */
-/* Add any existing CSS rules above */
-
-/* Add any existing CSS rules above */
-
 .footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
     text-align: center;
 }
-
 .contact-details {
     max-width: 400px;
     margin: 0 auto;
 }
-
 .contact-details h2 {
     font-size: 24px;
 }
-
 .contact-details p {
     font-size: 18px;
     margin: 8px 0;
 }
-
 .symbol {
     font-size: 18px;
     margin-right: 4px;
     vertical-align: middle;
     display: inline-block;
     font-weight: bold;
-    color: red; /* Customize the symbol color as needed */
+    color: red;
 }
